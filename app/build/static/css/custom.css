@@ -1,0 +1,130 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+  6F2DBD - Purple
+#2C0735 -plum
+A663CC - lavender
+B298DC -lilac
+B8D0EB -periwinkle
+B9FAF8 - robin’s egg blue
+FF6D00-orange
+FF7900- orange-yellow
+FF8500 - yellow-orange
+FF9100 - yellow-yellow-orange
+FF9E00 - dark yellow
+240046 - dark purple
+3c096c - royal purple
+5A189A - purple
+7B2CBF - light purple
+9D4EDD - lavender
+FFEA00 - neon yellow
+FFD000 - yellow
+FFDD00 - light yellow
+FFC300 - mid yellow
+FF85A1 - hot pink
+F7CAD0 - carnation
+FF85A1 - pink
+F9BEC7- ballet shoes pink
+-----------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Lato', sans-serif !important;
+}
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+.font-secondary{
+  font-family: 'Roboto', sans-serif !important;
+  color: #181818 !important;
+}
+.font-primary{
+  color: white !important;
+}
+#header{
+  background-color: transparent !important;
+  border-bottom: 1px transparent !important;
+}
+.menu-link1{
+  display: block;
+  line-height: 22px;
+  padding: 14px 15px;
+  color: #30B700 !important;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.menu-link2{
+  display: block;
+  line-height: 22px;
+  padding: 14px 15px;
+  color: #FFEF00 !important;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.menu-link3{
+  display: block;
+  line-height: 22px;
+  padding: 14px 15px;
+  color: #B65FCF !important;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.menu-link4{
+  display: block;
+  line-height: 22px;
+  padding: 14px 15px;
+  color: #FF007F !important;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.menu-link5{
+  display: block;
+  line-height: 22px;
+  padding: 14px 15px;
+  color: #BF40BF !important;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+.menu-link6{
+  display: block;
+  line-height: 22px;
+  padding: 14px 15px;
+  color: #41A59C !important;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+#header-wrap{
+  background-color: whitesmoke;
+}
+.content-wrap{
+  padding:0 !important;
+}
+#picture1{
+  color: black !important;
+}
+.sub-menu-container .menu-item > .menu-link{ 
+  color:black !important;
+}
+.fbox-content p{
+  color: #181818 !important;
+}
+#picture2{
+  color: #30B700!important;

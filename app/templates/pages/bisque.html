@@ -1,0 +1,309 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Bisque</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/2.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Bisque</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/bisque/4.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Bisque</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/bisque/1.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+        <div class="content-wrap pb-0" style="z-index: 1;">
+            <div class="section p-0 mt-0 bg-transparent clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+                <div class="row align-items-stretch clearfix">
+                    <div class="col-lg-6 center col-padding" style="background: url('{{ url_for('static', filename='img/bisque/4.jpg') }}') center center no-repeat; background-size: cover;">
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <div class="col-lg-6 col-padding">
+                        <div>
+                            <div style="position: relative;">
+                                <div class="heading-block border-0" >
+                                    <h3 class="nott ls0">We Provide Everything You Need…Easy as 1, 2, 3!</h3>
+                                </div>
+                            </div>
+
+                            <!-- About Us Featured Boxes
+                            ============================================= -->
+                            <div class="row clearfix">
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-globe"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>1. You pick your piece.</h3>
+                                            <p>We have a very large selection of items to choose from plates, platters, vases, trivets, wine glass stems, picture frames, teapots, mugs, animal figurines, dog bowls, banks, and much, much more.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-gears"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>2. You paint and decorate your masterpiece.</h3>
+                                            <p>Spirit of Clay offers over 80 colors to choose from, as well as a variety of stamps, stencils, and books to help you with your designing. we are always more than happy to help and assist you in any way.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-document"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>3. We glaze and fire your masterpiece within 5-7 days.</h3>
+                                            <p>When you complete your masterpiece, we apply a clear glaze and fire the piece in our kilns. Once the piece is fired, it is dinnerware safe. Your piece is then ready to be picked up.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="container topmargin clearfix">
+
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" data-heading="B">
+                    <h3>Please Note:</h3>
+                </div>
+                <div class="row clearfix">
+                    <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">No added studio fee!  Spirit of Clay will not hold finished or unfinished pieces for more than 45 days unless prior arrangements are made.  Cost is easy!  All of the bisque is marked with the price. Included in the cost of the piece are all of your paints and your firing. We are all-inclusive!  We have a large selection of stencils, stamps, colorful idea books, and displays.  We will also match the price of any of our competitor's pieces if you show us proof.</h3>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <!-- Our Works
+            ============================================= -->
+            <div class="section bg-transparent mb-0">
+                <div class="container">
+                    <div class="heading-block center border-0" data-heading="O">
+                        <h3 class="nott ls0">Past Projetcs</h3>
+                    </div>
+                </div>
+
+                <!-- Portfolio Items
+                ============================================= -->
+                <div id="portfolio" class="portfolio row grid-container g-0">
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/5.jpg') }}" alt="Ohio Home PLate">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="portfolio-single.html">Ohio Home Plate</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/6.jpg') }}" alt="Whimsy Christmas Tree">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Whimsy Christmas Tree</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/14.jpg') }}" alt="Cleveland Pumpkin">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Cleveland Pumpkin</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/8.jpg') }}" alt="Fun Thanksgiving Turkey">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Fun Thanksgiving Turkey</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/9.jpg') }}" alt="Mother's Day Mugs">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Mother's Day Mugs</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/15.jpg') }}" alt="Cow Bank">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Cow Bank</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/11.jpg') }}" alt="Mushroom Fairy house">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Mushroom Fairy House</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/bisque/12.jpg') }}" alt="Disney Mug">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Disney Mug</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div><!-- #portfolio end -->
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

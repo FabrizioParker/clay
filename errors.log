@@ -1,0 +1,2196 @@
+App started.
+App started.
+App started.
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Kachow/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Kachow/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Kachow/app/templates/base.html", line 29, in top-level template code
+    {% include "shared/navbar.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: shared/navbar.html
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Kachow/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Kachow/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Kachow/app/templates/base.html", line 29, in top-level template code
+    {% include "shared/navbar.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: shared/navbar.html
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 34, in top-level template code
+    <li class="menu-item active"><a class="menu-link" href="{{url_for('about')}}"><div>About Us</div></a></li>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'about'. Did you mean 'api_blueprint.secretresource' instead?
+Exception on /index.html [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 34, in top-level template code
+    <li class="menu-item active"><a class="menu-link" href="{{url_for('about')}}"><div>About Us</div></a></li>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'about'. Did you mean 'api_blueprint.secretresource' instead?
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 34, in top-level template code
+    <li class="menu-item active"><a class="menu-link" href="{{url_for('about')}}"><div>About Us</div></a></li>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'about'. Did you mean 'api_blueprint.secretresource' instead?
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 34, in template
+    <li class="menu-item active"><a class="menu-link" href="{{url_for('templates') filename:'pages/about.html'}}"><div>About Us</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'filename'
+App started.
+App started.
+App started.
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 54, in template
+    <li class="menu-item"><a class="menu-link" href="{{ url_for('views.baby')"><div>Baby</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'string'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 54, in template
+    <li class="menu-item"><a class="menu-link" href="{{ url_for('views.baby')"><div>Baby</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'string'
+App started.
+App started.
+App started.
+App started.
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 52, in template
+    <li class="menu-item"><a class="menu-link" href="{{ url_for('views.birthday') }}"><div>Birthday</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'views'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 52, in template
+    <li class="menu-item"><a class="menu-link" href="{{ url_for('views.birthday') }}"><div>Birthday</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'views'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 52, in template
+    <li class="menu-item"><a class="menu-link" href="{{ url_for('views.birthday') }}"><div>Birthday</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'views'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 52, in template
+    <li class="menu-item"><a class="menu-link" href="{{ url_for('views.birthday') }}"><div>Birthday</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'views'
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 57, in template
+    <li class="menu-item"><a class="menu-link" href="#"><div>Party Pail</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'menu'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 57, in template
+    <li class="menu-item"><a class="menu-link" href="#"><div>Party Pail</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'menu'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 57, in template
+    <li class="menu-item"><a class="menu-link" href="#"><div>Party Pail</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'menu'
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 15, in top-level template code
+    {% include "shared/_nav.html" with context %}
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/shared/_nav.html", line 57, in template
+    <li class="menu-item"><a class="menu-link" href="#"><div>Party Pail</div></a></li>
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'menu'
+App started.
+App started.
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/index.html
+App started.
+App started.
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/index.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/index.html
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 18, in block 'content'
+    <a href="{{url_for('views.project')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.project'. Did you mean 'views.rent' instead?
+App started.
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 18, in block 'content'
+    <a href="{{url_for('views.project')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.project'. Did you mean 'views.rent' instead?
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 18, in block 'content'
+    <a href="{{url_for('views.project')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.project'. Did you mean 'views.rent' instead?
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 22, in index
+    return render_template('pages/index.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/index.html", line 18, in block 'content'
+    <a href="{{url_for('views.project')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.project'. Did you mean 'views.rent' instead?
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+App started.
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+App started.
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+Exception on /corporate [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 55, in corporate
+    return render_template('pages/corporate.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/corporate.html
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+App started.
+Exception on /project [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 83, in project
+    return render_template('pages/project.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 147, in render_template
+    return _render(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/base.html", line 18, in top-level template code
+    {% block content %}
+  File "/home/runner/Final-Project-LancerTech-4/app/templates/pages/project.html", line 30, in block 'content'
+    <a href="{{url_for('views.projects')}}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/helpers.py", line 325, in url_for
+    rv = url_adapter.build(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/routing.py", line 2314, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'views.projects'. Did you mean 'views.project' instead?
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+Exception on /fairy.html [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 59, in fairy
+    return render_template('pages/fairy.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/fairy.html
+Exception on /fairy.html [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 59, in fairy
+    return render_template('pages/fairy.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/fairy.html
+Exception on /fairy.html [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 59, in fairy
+    return render_template('pages/fairy.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/fairy.html
+App started.
+App started.
+App started.
+App started.
+Exception on /fairy.html [GET]
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/runner/Final-Project-LancerTech-4/app/views/basics.py", line 59, in fairy
+    return render_template('pages/house.html')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages/fairy.html
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.
+App started.

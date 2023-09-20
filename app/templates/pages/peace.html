@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Glass Fusing Classes</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/peace/1.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Glass Fusing Class</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/7.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Glass Fusing Class</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/peace/3.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <div class="container topmargin clearfix">
+
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" data-heading="G">
+                    <h3>Glass Fusing Classes </h3>
+                </div>
+                <div class="row clearfix">
+                    <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">To be announced!
+                          <!--During crazy times, what could be more important than peace? Use your creative energy in a positive way and come in and create an awesome peace sign out of glass. Hang it on the wall or in a window. Makes the perfect gift for that someone special to remind each other of a great cause to strive for!  This class can be done anytime, but you must make a reservation.  Please call the studio at (440) 684-0001 for more information.--><br>Cost: $42</h3>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Corporate Events</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/4.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Corporate Events</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/2.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Corporate Events</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/3.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <!-- About Us
+            ============================================= -->
+            <div class="section p-0 mt-0 bg-transparent clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+                <div class="row align-items-stretch clearfix">
+                    <div class="col-lg-6 center col-padding" style="background: url('{{ url_for('static', filename='img/corporate/4.jpg') }}') center center no-repeat; background-size: cover;">
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <div class="col-lg-6 col-padding">
+                        <div>
+                            <div style="position: relative;">
+                                <div class="heading-block border-0" data-heading="C">
+                                    <h3 class="nott ls0">Corporate Events</h3>
+                                </div>
+                            </div>
+
+                            <!-- About Us Featured Boxes
+                            ============================================= -->
+                            <div class="row clearfix">
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-globe"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>A Spirit of Clay Party</h3>
+                                            <p>A Spirit of Clay Party is very different from the same old office party!  Great for companies Large or Small • Law Firms • Non-Profit Organizations.  With a warm atmosphere and great background music, each person can be creative regardless of artistic skill!  The Wall Street Journal reported that such parties at contemporary ceramic studios are big hits as they encourage staff and department interaction within a relaxing atmosphere. Companies are always searching for something new to do for parties, and a ceramic studio fits the bill!  One of the most popular items to paint are mugs (now everyone will know who left their dirty cup in the sink!) Spirit of Clay offers hundreds of items to choose from. For your party, we can offer you a single per person price for the event or people can select their own pottery at various price points.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-gears"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Rent the Studio</h3>
+                                            <p>You may reserve the entire studio for your very own private party for groups such as non-profits, law firms, government organizations, private businesses, and individuals looking for a private space to create and have fun. You can bring food and beverages, including beer & wine. Whether it’s an employee/family event or staff appreciation day, we will give your group an enjoyable, creative experience.  We require a 3-week advance notice to guarantee space availability.  Reservation Fee: $25 (This fee must be paid at the time of reservation and will be applied to the cost of the party; this deposit is nonrefundable.<br>Studio Private Rental: $250.00 // Cost of pottery and studio fee not included in party rental fee.  You have 2 hours, more time is allotted for a pro-rated fee.  Rentals on the weekend need to start at 9 am OR the last two hours of opening. Rentals during the week can be more flexible at times.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Birthday Parties</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/birthday/7.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary" >Birthday Parties</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block" >Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/birthday/6.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Birthday Parties</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/birthday/3.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <div class="container topmargin clearfix">
+
+                <div class="section p-0 mt-0 bg-transparent clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+                  <div class="row align-items-stretch clearfix">
+                    <div class="col-lg-6 center col-padding" style="background: url('{{ url_for('static', filename='img/birthday/4.jpg') }}') center center no-repeat; background-size: cover;">
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <!-- About Us
+                    ============================================= -->
+                    <div class="col-lg-6 col-padding">
+                        <div>
+                            <div style="position: relative;">
+                                <div class="heading-block border-0">
+                                    <h3 class="nott ls0">Birthday Parties</h3>
+                                    <h6>Put ART in your child’s next Birthday Party!<br>Choose from one of the following packages:</h6>
+                                </div>
+                            </div>
+
+                            <!-- About Us Featured Boxes
+                            ============================================= -->
+                            <div class="row clearfix">
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-globe"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Package A:</h3>
+                                            <p>
+                                              <ul>
+                                                <li>$16.00 per child</li>
+                                                <li>6 child minimum – 2-hour party</li>
+                                                <li>One bisque piece per child selected from party bisque</li>
+                                                <li>A special keepsake plate for the birthday child</li>
+                                                <li>Use of party room with paint and brushes and also a studio associate to help out with the painting process</li>
+                                                <li>We glaze and fire the pieces ready for pick up in one week</li>
+                                                <li>You may bring cake, pizza, etc</li>
+                                                <li>Must bring your own paper products</li>
+                                              </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-gears"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Package B:</h3>
+                                            <p>
+                                              <ul>
+                                                <li>$20 per child</li>
+                                                <li>10 years old and older- 2-hour party</li>
+                                                <li>4-inch square coaster or sun catcher decorated with a design of child’s choice using different shapes of colorful glass</li>
+                                                <li>we create a special keepsake plate for the birthday child</li>
+                                                <li>Enjoy your food, cake, beverage, etc in the party room</li>
+                                                <li>must bring your own paper products</li>
+                                              </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-document"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Package C:</h3>
+                                            <p>
+                                              <ul>
+                                                <li>$25 per child</li>
+                                                <li>10 years old and older- 2-hour party</li>
+                                                <li>we create a special keepsake plate for the birthday child</li>
+                                                <li>6-inch square coaster or sun catcher decorated with a design of child’s choice using different shapes of colorful glass</li>
+                                                <li>Enjoy your food, cake, beverage, etc in the party room</li>
+                                                <li>must bring your own paper products</li>
+                                              </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+            </div>
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" >
+                  <h3>Important Information</h3>
+                </div>
+                <div class="row clearfix">
+                <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">A $25 deposit is required at the time of booking for all party packages.  The deposit will be deducted from the total.  No refund of deposit for cancellation.  Call the studio at (440) 684-0001 to book your party!</h3>
+                 </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

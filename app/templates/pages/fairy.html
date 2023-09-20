@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Houses</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/6.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Houses</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/fairy/2.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Houses</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/fairy/3.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <div class="container topmargin clearfix">
+
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" data-heading="F">
+                    <h3>Call Studio for Information</h3>
+                </div>
+                <div class="row clearfix">
+                    <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">Come build fairy houses out of clay with us for your favorite fairy friend. There are three sizes of fairy houses to choose from, large, medium, and small.  The large handbuilt houses are eighty dollars plus tax, the medium handbuilt houses are sixty-five dollars plus tax, and the small handbuilt houses are fourty-eight dollars plus tax.  The best thing is that about two weeks or so after making the house you can come back and paint the fairy house to customize it even more.  Depending on the season you can make anything from haunted houses to ginger bread houses.<br> Call to make a reservation.    440-684-0001 </h3>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

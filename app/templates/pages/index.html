@@ -1,0 +1,378 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Spirit of Clay</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/4.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Spirit of Clay</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/2.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Spirit of Clay</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/7.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <div class="container topmargin clearfix">
+
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" >
+                    <h3>About Us</h3>
+                </div>
+                <div class="row clearfix">
+                    <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">Sometimes you just need a creative outlet. We understand. We've been helping our customers be creative for 15+ years. We provide the tools and support for you to express yourself. Whether you're working with clay for the first time, or you have an old hand, we're here to help you every step of the way.  With mediums such as contemporary bisque pottery just waiting to be painted; hand building with clay and use of the potter’s wheel; glass fusing, and more.<span class="t-rotate color">Bisque,Clay,Glass Fusing,Birthady Parties,Bridal Parties,Classes,Workshops,Party Pail,Mobile Parties</span></h3>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <!-- Features colomns
+                    ============================================= -->
+                    <div class="row clearfix" id="projects">
+                        <div class="col-lg-4 bottommargin-sm">
+                            <div class="feature-box media-box fbox-bg">
+                                <div class="fbox-media">
+                                    <a href="{{url_for('views.clay')}}"><img src="{{ url_for('static', filename='img/home/1.jpg') }}" alt="Clay Dog"></a>
+                                </div>
+                                <div class="fbox-content fbox-content-lg">
+                                    <h3 class="nott ls0 fw-semibold">Clay<span class="subtitle font-secondary fw-light ls0">Come Play in the Mud!  Hand-built projects can be treasured for a lifetime!  You don’t need a license to get behind the wheel at Spirit of Clay!</span></h3>
+                                    <a href="{{url_for('views.clay')}}" class="button-link border-0 color">Find Out More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 bottommargin-sm">
+                            <div class="feature-box media-box fbox-bg">
+                                <div class="fbox-media">
+                                    <a href="{{url_for('views.glass')}}"><img src="{{ url_for('static', filename='img/home/3.jpg') }}" alt="Featured Box Image"></a>
+                                </div>
+                                <div class="fbox-content fbox-content-lg">
+                                    <h3 class="nott ls0 fw-semibold">Glass Fusing<span class="subtitle font-secondary fw-light ls0">Come make beautiful glass pieces that will be treasured forever!  We show you how to safely cut the glass, so you can have a safe and fun time!</span></h3>
+                                    <a href="{{url_for('views.glass')}}" class="button-link border-0 color">Find Out More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 bottommargin-sm">
+                            <div class="feature-box media-box fbox-bg">
+                                <div class="fbox-media">
+                                    <a href="{{url_for('views.bisque')}}"><img src="{{ url_for('static', filename='img/home/6.jpg') }}" alt="Featured Box Image"></a>
+                                </div>
+                                <div class="fbox-content fbox-content-lg">
+                                    <h3 class="nott ls0 fw-semibold">Bisque<span class="subtitle font-secondary fw-light ls0">No added studio fee!  We Provide Everything You Need…Easy as 1, 2, 3!  We have a very large selection of items to choose from!</span></h3>
+                                    <a href="{{url_for('views.bisque')}}" class="button-link border-0 color">Find Out More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Us
+            ============================================= -->
+            <div class="section p-0 mt-0 bg-transparent clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+                <div class="row align-items-stretch clearfix">
+                    <div class="col-lg-6 center col-padding" style="background: url('{{ url_for('static', filename='img/home/20.jpg') }}') center center no-repeat; background-size: cover;">
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <div class="col-lg-6 col-padding">
+                        <div>
+                            <div style="position: relative;">
+                                <div class="heading-block border-0" >
+                                    <h3 class="nott ls0">Safety</h3>
+                                </div>
+                            </div>
+
+                            <!-- About Us Featured Boxes
+                            ============================================= -->
+                            <div class="row clearfix">
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-globe"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Child Safe</h3>
+                                            <p> The glazes we use are nontoxic and lead free, so children and babies can play without stress or worry.  All of the paints we use are washable and will easily come out of your clothes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-gears"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Glass Safety Protocol </h3>
+                                            <p>We have gloves to use for cutting glass so you cannot get hurt by the sharp edges of the glass.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-document"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Dishwasher safe</h3>
+                                            <p>All of our pieces are dishwasher safe but they have to be put on the top self of the dishwasher.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Our Works
+            ============================================= -->
+            <div class="section bg-transparent mb-0">
+                <div class="container">
+                    <div class="heading-block center border-0" data-heading="O">
+                        <h3 class="nott ls0">Our Works</h3>
+                    </div>
+
+                    <div class="grid-filter-wrap">
+                        <!-- Grid Filter
+                        ============================================= -->
+                        <ul class="grid-filter style-2 mx-auto" data-container="#portfolio">
+
+                            <li class="activeFilter"><a href="#" data-filter="*">Show All</a></li>
+                            <li><a href="#" data-filter=".pf-clay">Clay</a></li>
+                            <li><a href="#" data-filter=".pf-glass">Glass</a></li>
+                            <li><a href="#" data-filter=".pf-bisque">Bisque</a></li>
+                            
+
+                        </ul><!-- .grid-filter end -->
+                    </div>
+                </div>
+
+                <!-- Portfolio Items
+                ============================================= -->
+                <div id="portfolio" class="portfolio row grid-container g-0">
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-clay pf-bisque">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/home/8.jpg') }}" alt="dinosaurs">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="portfolio-single.html">Painted Clay Dinosaurs</a></h3>
+                                            <span><a href="#">Clay</a>, <a href="#">Bisque</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-glass">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/home/18.jpg') }}" alt="Christmas Trees">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Christmas Trees Swirl</a></h3>
+                                            <span><a href="#">Glass</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-glass">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/home/10.jpg') }}" alt="Glass Bowl">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Glass Bowl</a></h3>
+                                            <span><a href="#">Glass</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-clay pf-glass pf-bisque">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                              <a href="#">
+                                <img src="{{ url_for('static', filename='img/home/11.jpg') }}" alt="Halloween Projects">
+                              </a>
+                              <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Halloween Projects</a></h3>
+                                            <span><a href="#">Clay</a>, <a href="#">Glass</a>, <a href="#">Bisque</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-bisque">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <div class="slide">
+                                  <a href="#">
+                                    <img src="{{ url_for('static', filename='img/home/12.jpg') }}" alt="Ohio Home Plate">
+                                  </a>
+                                </div>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Ohio Home Plate</a></h3>
+                                            <span><a href="#">Bisque</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-bisque pf-clay">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/home/13.jpg') }}" alt="haunted house">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Haunted House</a></h3>
+                                            <span><a href="#">Bisque</a>, <a href="#">Clay</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-bisque pf-clay">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/home/16.jpg') }}" alt="Fairy Houses">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Fairy Houses</a></h3>
+                                            <span><a href="#">Clay</a>, <a href="#">Bisque</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-bisque">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/home/15.jpg') }}" alt="Open Imagination">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Hamsa by Dehlia</a></h3>
+                                            <span><a href="#">Bisque</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div><!-- #portfolio end -->
+                
+            </div>
+            
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

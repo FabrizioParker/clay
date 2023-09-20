@@ -1,0 +1,236 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Clay</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/6.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Clay</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/clay/11.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Clay</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/clay/1.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <div class="container topmargin clearfix">
+
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" data-heading="C">
+                    <h3>Clay</h3>
+                </div>
+                <div class="row clearfix">
+                    <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">Come Play in the Mud! Hand-built projects can be treasured for a lifetime!  You don’t need a license to get behind the wheel at the Spirit of Clay!</h3>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <!-- About Us
+            ============================================= -->
+            <div class="section p-0 mt-0 bg-transparent clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+                <div class="row align-items-stretch clearfix">
+                    <div class="col-lg-6 center col-padding" style="background: url('{{ url_for('static', filename='img/clay/11.jpg') }}') center center no-repeat; background-size: cover;">
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <div class="col-lg-6 col-padding">
+                        <div>
+                            <div style="position: relative;">
+                                <div class="heading-block border-0" data-heading="C">
+                                    <h3 class="nott ls0">Important Information</h3>
+                                </div>
+                            </div>
+
+                            <!-- About Us Featured Boxes
+                            ============================================= -->
+                            <div class="row clearfix">
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-globe"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>One Step Further, Or Rather, One Step Back</h3>
+                                            <p>Many ceramics studios offer only already-fired ware for crafty customers to paint, but our studio takes pottery one step further — or rather, one step back — children ages 6 and older and adults are able to use an electric pottery wheel to shape their own pieces from a lump of clay. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-gears"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Prior Experience Required</h3>
+                                            <p>You must have some type of prior experience to use the wheel.If you are familiar with the wheel and would like to just come in and use it (we have three wheels, it is first come first serve unless you make an appointment).  </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-document"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>Clay Pricing: </h3>
+                                            <p>Nine dollars for 1lb of clay; price includes your 1st firing fee.  You must buy your clay from Spirit of Clay.  No outside clay allowed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Our Works
+            ============================================= -->
+            <div class="section bg-transparent mb-0">
+                <div class="container">
+                    <div class="heading-block center border-0" >
+                        <h3 class="nott ls0">Previous Projects</h3>
+                    </div>
+                </div>
+
+                <!-- Portfolio Items
+                ============================================= -->
+                <div id="portfolio" class="portfolio row grid-container g-0">
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/clay/9.jpg') }}" alt="Painted Fairy Houses">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="portfolio-single.html">Painted Fairy Houses</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/clay/6.jpg') }}" alt="Coil Bowls">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Coil Bowls</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-uielements">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/clay/14.jpg') }}" alt="Turkey">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Turkey</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-icons pf-illustrations">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/clay/8.jpg') }}" alt="Clay Halloween House">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Clay Halloween House</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div><!-- #portfolio end -->
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

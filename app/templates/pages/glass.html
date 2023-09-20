@@ -1,0 +1,236 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Glass Fusing</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/glass/1.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Glass Fusing</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/glass/8.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Glass Fusing</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/glass/3.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <div class="container topmargin clearfix">
+
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" data-heading="G">
+                    <h3>Glass Fusing</h3>
+                </div>
+                <div class="row clearfix">
+                    <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">You can just stop in and we will show you how to work with the glass and basically give you an introductory class, show you how to cut glass and the basics of making a piece of glass fused artwork.  You will have the option to pick from many different styles, sizes, and shapes that we offer.  The studio is open every day for glass fusing. If you like you may call and make a reservation because glass space is limited. You can make plaques, jewelry, and coasters to name a few projects. Pieces then can be shaped into bowls or plates (slumping) in a second firing. Pieces and prices include materials like hooks, bails.  Prices start at $15.  Slumping pieces into bowls and/or plates is an additional $5-$10.</h3>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <!-- About Us
+            ============================================= -->
+            <div class="section p-0 mt-0 bg-transparent clearfix" style="border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;">
+                <div class="row align-items-stretch clearfix">
+                    <div class="col-lg-6 center col-padding" style="background: url('{{ url_for('static', filename='img/glass/9.jpg') }}') center center no-repeat; background-size: cover;">
+                        <div>&nbsp;</div>
+                    </div>
+
+                    <div class="col-lg-6 col-padding">
+                        <div>
+                            <div style="position: relative;">
+                                <div class="heading-block border-0" data-heading="S">
+                                    <h3 class="nott ls0">Steps</h3>
+                                </div>
+                            </div>
+
+                            <!-- About Us Featured Boxes
+                            ============================================= -->
+                            <div class="row clearfix">
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-globe"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>1.</h3>
+                                            <p>You select the glass base.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8 bottommargin">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-gears"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>2.</h3>
+                                            <p>From our vast selection of glass bits and pieces, you glue down your design.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-8">
+                                    <div class="feature-box fbox-plain">
+                                        <div class="fbox-icon">
+                                            <a href="#"><i class="icon-et-document"></i></a>
+                                        </div>
+                                        <div class="fbox-content">
+                                            <h3>3.</h3>
+                                            <p>We will then fuse the piece in our glass kiln.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Our Works
+            ============================================= -->
+            <div class="section bg-transparent mb-0">
+                <div class="container">
+                    <div class="heading-block center border-0" >
+                        <h3 class="nott ls0">Previous Projects</h3>
+                    </div>
+                </div>
+
+                <!-- Portfolio Items
+                ============================================= -->
+                <div id="portfolio" class="portfolio row grid-container g-0">
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/glass/5.jpg') }}" alt="Christmas Tree Swirl">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="portfolio-single.html">Christmas Tree Swirl</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/glass/6.jpg') }}" alt="Glass Bowl">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Glass Bowl</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/glass/7.jpg') }}" alt="Glass Peace Sign">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Glass Peace Sign</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="grid-inner">
+                            <div class="portfolio-image">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename='img/glass/8.jpg') }}" alt="Glass Plate">
+                                </a>
+                                <div class="bg-overlay">
+                                    <div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+                                        <!-- Decription: Start -->
+                                        <div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+                                            <h3><a href="#">Glass Plate</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div><!-- #portfolio end -->
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}

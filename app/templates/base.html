@@ -1,0 +1,58 @@
+{# ------------------ BASE! ---------------- #}
+{# pretty much every page will use this stuff #}
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  {# check out the templates/shared/_head.html to see CSS and head includes #}
+  {% include "shared/_head.html" %}
+    <body class="stretched">
+
+        <!-- Document Wrapper
+        ============================================= -->
+        <div id="wrapper" class="clearfix">
+        
+          {% if not disable_navbar %}
+            {% include "shared/_nav.html" with context %}
+          {% endif%}
+          
+          {% block content %}
+          <!-- Begin Page Content -->
+          <div class="container-fluid">
+            
+          </div>
+          {% endblock %}
+      
+          
+        </div>
+        {#-- End of Main Content --#}
+
+        {% include "shared/_footer.html" with context %}
+
+      </div>
+      <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper --> 
+
+    {% block btt %}
+      <!-- Scroll to Top Button-->
+      <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+      </a>
+    {% endblock %}
+
+    {# You can put modals pretty much anywhere, but some folks find it tidy to keep them out of the content block #}
+    {% block modals %}{% endblock %}
+
+    {# LOAD UP ALL YOUR THEME'S JS HERE #}
+    {% include "shared/_js.html" with context %}
+
+    {# A convenient block so you can drop in your own template-specific JS code #}
+    {% block tail %}{% endblock %}
+
+    {# activate menu items #}
+    <script>
+      $('#{% block linkitem %}replaceme{% endblock %}').addClass('active');
+    </script>
+  </body>
+</html>        

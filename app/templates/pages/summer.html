@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Slider
+    ============================================= -->
+    <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
+
+        <div class="slider-inner">
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary not">Summer Workshops for Kids</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/4.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Summer Workshops for Kids</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/summer/2.jpg') }}');"></div>
+                    </div>
+                    <div class="swiper-slide dark">
+                        <div class="container">
+                            <div class="slider-caption slider-caption-center">
+                                <div>
+                                    <h2 class="font-primary">Summer Workshops for Kids</h2>
+                                    <p class="fw-light font-primary d-none d-sm-block">Your Own Pottery And Glass Fusing Art Studio</p>
+                                    <a href="{{ url_for ('views.project') }}" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bg" style="background-image: url('{{ url_for('static', filename='img/slider/7.jpg') }}');"></div>
+                    </div>
+                </div>
+                <!-- Slider Arrows
+                ============================================= -->
+                <div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
+                <div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
+            </div>
+
+            <!-- Slider Mouse Icon
+            ============================================= -->
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="{{ url_for('static', filename='demos/business/images/mouse.svg') }}" alt="Image" ></a>
+        </div>
+
+    </section>
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap pb-0" style="z-index: 1;">
+
+            <div class="container topmargin clearfix">
+
+                <!-- What We Do
+                ============================================= -->
+                <div class="heading-block center border-0" >
+                    <h3>2023 Schedule <br>9:00-11:30<br>(6-16 years old)</h3>
+                </div>
+                <div class="row clearfix">
+                    <div class="center col-lg-8 offset-lg-2 bottommargin">
+                        <h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">Summertime… A great time of the year for kids to get a break from school and have fun.  Here at Spirit of Clay, we encourage children to tap into their creative side.  To step outside their box.  <br>Our summer workshops create a venue for kids to have fun and explore the possibilities of creating without preconceived notions, such as what color a flower should be or whether or not an animal can be painted purple with pink polka dots. <br> Classes include the pottery wheel, hand-building with clay, painting pottery, glass fusing, and mosaic.  Workshop size is anywhere from 1-8 children for most projects and must be paid in full at sign-up.  This is refundable if canceled one week prior to the date. <br> Cost is forty dollars plus tax per day  . <br> You do not have to sign up for the week. <br> Classes are individual signup <br> Please call us at 440-684-0001 to sign up!</h3>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <!-- How We Work
+            ============================================= -->
+            <div class="section bg-transparent clearfix">
+                <div class="container clearfix">
+                    <div class="heading-block bottommargin-lg center border-0" >
+                        <h3 class="nott ls0">2023 Summer Workshop Schedule</h3>
+                        <h6>Children’s Summer Workshop hours are 9:00 am to 11:30 am<br>*** You can come back in about two weeks to paint your piece at no charge.</h6>
+                    </div>
+                </div>
+
+                <!-- How We Work - Carousel
+                ============================================= -->
+                <div id="oc-features" class="owl-carousel owl-carousel-full image-carousel carousel-widget customjs">
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/4.jpg') }}" alt="Fairy and Toad houses">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of June 20 - June 23 </h3>
+                                <p>Tuesday, June 20: Make a colorful mosaic mirror <br>Wednesday, June 21: Handbuild a fairy or toad house out of clay<br> Thursday, June 22: Try spinning some bowls on the pottery wheel***<br> Friday, June 23: Make a fantasic glass fused windchime</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/5.jpg') }}" alt="Glass Fused Peace Sign">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of June 27 - June 30</h3>
+                                <p>Tuesday, June 27: No Workshop<br>Wednesday, June 28: Spin Bowls on the Pottery Wheel<br>Thursday, June 29: Paint a patchwork piggy bank<br>Friday, June 30: Make a Glass fused peace sign </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/18.jpg') }}" alt="Artist caddy">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of July 4 - July 8</h3>
+                                <p>No Classes All Week</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/9.jpg') }}" alt="Pizza Plate">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of July 11 - July 14</h3>
+                                <p>Tuesday, July 11: Try your hand at the pottery wheel<br>Wednesday, July 12: No Workshop<br>Thursday, July 13: Create Glass fused windchimes<br>Friday, July 14: Paint a yummy pizza plate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                      <div class="row cleafix">
+                          <div class="col-xl-8">
+                            <img src="{{ url_for('static', filename='img/summer/8.jpg') }}" alt="Pottery wheel bowls">
+                          </div>
+                          <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                            <h3>Week of July 18 - July 21</h3>
+                            <p>Tuesday, July 18: Paint a premade fairy house <br>Wednesday, July 19: Try spinning some bowls on the pottery wheel***<br>Thursday, July 20: Handbuild a piggy bank***<br>Friday, July 22: Make a glass fused wallhanging with three tiles wired together</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/19.jpg') }}" alt="Gingerbread House">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of July 25 - July 28<br>Christmas in July</h3>
+                                <p>Tuesday, July 25: Build a clay Holiday house<br>Wednesday, July 26: Glass fused Winter Holiday Wreath<br>Thursday, July 27: Paint a holiday platter<br>Friday, July 28: Create a glass fused holiday plate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/7.jpg') }}" alt="Popcorn Bowl">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of August 1 - August 4</h3>
+                                <p>Tuesday, August 1: Handbuild a fairy or toad house<br>Wednesday, August 2: Make a glass fused windchime <br>Thursday, August 3: Make a popcorn bowl<br>Friday, August 4: try your hand at the pottery wheel***</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/18.jpg') }}" alt="Artist caddy">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of August 8 - August 11</h3>
+                                <p>Tuesday, August 8: Paint a three section artist caddy/pencil holder<br>Wednesday, August 9: Try spinning on the pottery wheel***<br>Thursday, August 10: Make a glass fused peace sign<br>Friday, August 11: Paint apsectacular summer platter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="row cleafix">
+                            <div class="col-xl-8">
+                                <img src="{{ url_for('static', filename='img/summer/4.jpg') }}" alt="Fairy and Toad houses">
+                            </div>
+                            <div class="col-xl-4" style="padding: 20px 0 0 20px;">
+                                <h3>Week of August 15 - August 18 </h3>
+                                <p>Tuesday, August 15: Paint a premade fairy house <br>Wednesday, August 16: Make a glass fused wall hanging with three glass tiles<br> Thursday, August 17: Make a cool popcorn bowl<br> Friday, August 18: Try spinning some bowls on the pottery wheel***</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+{% endblock %}
